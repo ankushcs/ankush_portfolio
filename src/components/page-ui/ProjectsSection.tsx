@@ -1,57 +1,62 @@
-import React from 'react';
+import React from "react";
 
-import { HeroParallax } from '@/components/ui/hero-paralax';
+import { HeroParallax } from "@/components/ui/hero-paralax";
 
 export function ProjectsSection() {
-    return <HeroParallax products={products} />;
+  return <HeroParallax products={products} />;
 }
 
 const products = [
-    {
-        title: 'Mern Memories',
-        link: 'https://github.com/spojskic/mern-memories',
-        thumbnail: '/projects/mern-memories.png'
-    },
-    {
-        title: 'Next Event',
-        link: 'https://github.com/spojskic/next-dj-events-frontend',
-        thumbnail: '/projects/next-event.png'
-    },
-    {
-        title: 'Devspace',
-        link: 'https://github.com/spojskic/next-devspace-blog',
-        thumbnail: '/projects/devspace.png'
-    },
+  {
+    title: "Jobby App",
+    link: "https://github.com/ankushcs/jobby_app_hook",
+    thumbnail: "/projects/Joby_App.png",
+  },
+  {
+    title: "Restaurant Website",
+    link: "https://github.com/ankushcs/restaurant_website_clone",
+    thumbnail: "/projects/restaurant_web.png",
+  },
+  {
+    title: "AI Website",
+    link: "https://github.com/ankushcs/Site-Clone-Ai",
+    thumbnail: "/projects/ai_website.png",
+  },
 
-    {
-        title: 'Google Clone',
-        link: 'https://github.com/MagicPojska/gulululgl-search-clone',
-        thumbnail: '/projects/google-clone.png'
-    },
-    {
-        title: 'Portfolio V1',
-        link: 'https://safetpojskic.netlify.app/',
-        thumbnail: '/projects/old-portfolio.png'
-    },
-    {
-        title: 'Dresscode',
-        link: '',
-        thumbnail: '/projects/dresscode.png'
-    },
+  {
+    title: "Todo App",
+    link: "https://github.com/ankushcs/react-todo-app",
+    thumbnail: "/projects/Todo_App.png",
+  },
+  {
+    title: "Password Manager",
+    link: "https://github.com/ankushcs/password__manager",
+    thumbnail: "/projects/Password_Manager.png",
+  },
+  {
+    title: "Youtube Clone",
+    link: "https://github.com/ankushcs/youtubeclone",
+    thumbnail: "/projects/Youtube_Clone.png",
+  },
 
-    {
-        title: 'Portfolio V2',
-        link: 'https://safetpojskic.com',
-        thumbnail: '/projects/portfoliov2.png'
-    },
-    {
-        title: 'Music App',
-        link: 'https://github.com/spojskic/my-music-app',
-        thumbnail: '/projects/music-app.png'
-    },
-    {
-        title: 'Artemis',
-        link: '',
-        thumbnail: '/projects/artemis.png'
-    }
+  {
+    title: "Weather App",
+    link: "https://github.com/ankushcs/Weather-App",
+    thumbnail: "/projects/Weather_app.png",
+  },
+  {
+    title: "Expanse Tracker",
+    link: "https://github.com/ankushcs/Expense-Tracker",
+    thumbnail: "/projects/Expanse_Tracker.png",
+  },
+  {
+    title: "Old Portfolio",
+    link: "https://github.com/ankushcs/portfolio_tw",
+    thumbnail: "/projects/Old_portfolio.png",
+  },
+  {
+    title: "Sipto Website",
+    link: "https://github.com/ankushcs/sipto-app",
+    thumbnail: "/projects/Sipto_Web.png",
+  },
 ];

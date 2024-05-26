@@ -1,83 +1,123 @@
-'use client';
-import React from 'react';
-import { twMerge } from 'tailwind-merge';
+"use client";
+import React from "react";
+import { twMerge } from "tailwind-merge";
 
-import { TracingBeam } from '@/components/ui/tracing-beams';
+import { TracingBeam } from "@/components/ui/tracing-beams";
 
 export function ExperienceSection() {
-    return (
-        <>
-            <h1 id="experience" className="mx-auto max-w-5xl px-8 pb-8 pt-20 text-2xl font-bold dark:text-white md:pt-32 md:text-7xl">
-                Experience
-            </h1>
-            <TracingBeam className="px-6">
-                <div className="relative mx-auto max-w-2xl pb-32 pt-4 text-white antialiased">
-                    {experience.map((item, index) => (
-                        <div key={`content-${index}`} className="mb-10 mt-4 md:mt-0">
-                            <h2 className={twMerge('text-xl text-black dark:text-white')}>{item.title}</h2>
-                            <span className="w-fit rounded-full py-1 text-sm italic text-neutral-800 dark:text-neutral-200">{item.badge}</span>
-                            <div className="prose prose-sm dark:prose-invert mt-2 text-sm text-black dark:text-white">{item.description}</div>
-                        </div>
-                    ))}
-                </div>
-            </TracingBeam>
-        </>
-    );
+  return (
+    <>
+      <h1
+        id="experience"
+        className="mx-auto max-w-5xl px-8 pb-8 pt-20 text-2xl font-bold dark:text-white md:pt-32 md:text-7xl"
+      >
+        Experience
+      </h1>
+      <TracingBeam className="px-6">
+        <div className="relative mx-auto max-w-2xl pb-32 pt-4 text-white antialiased">
+          {experience.map((item, index) => (
+            <div key={`content-${index}`} className="mb-10 mt-4 md:mt-0">
+              <h2 className={twMerge("text-xl text-black dark:text-white")}>
+                {item.title}
+              </h2>
+              <span className="w-fit rounded-full py-1 text-sm italic text-neutral-800 dark:text-neutral-200">
+                {item.badge}
+              </span>
+              <div className="prose prose-sm dark:prose-invert mt-2 text-sm text-black dark:text-white">
+                {item.description}
+              </div>
+            </div>
+          ))}
+        </div>
+      </TracingBeam>
+    </>
+  );
 }
 
 const experience = [
-    {
-        title: 'Pickleball.com',
-        description: (
-            <ul className="list-disc">
-                <li>Developed a full-stack enterprise applications using React and Nextjs.</li>
-                <li>
-                    Lead the frontend development team, focusing on creating, improving, and fine-tuning web applications to make them fast and
-                    reliable. My job includes planning our technical approaches, guiding the team, and actively coding and reviewing code.
-                </li>
-            </ul>
-        ),
-        badge: 'Software Engineer/Jan 2024 - Present'
-    },
-    {
-        title: 'Bosnia and Herzegovina Futures Foundation',
-        description: (
-            <ul className="list-disc">
-                <li>
-                    Actively engaged in personal development, focusing on enhancing my soft skills and public speaking abilities under the guidance of
-                    experienced mentors.
-                </li>
-                <li>
-                    Transitioned into a mentorship role, where I guided high school students in developing their soft skills and provided guidance in
-                    career planning and decision-making.
-                </li>
-                <li>Volunteered in web development team creating fls.ba info website</li>
-            </ul>
-        ),
-        badge: 'Junior -> Senior -> Alumni/Sep 2021 – Present'
-    },
-    {
-        title: 'Atlantbh',
-        description: (
-            <ul className="list-disc">
-                <li>Developed a full-stack enterprise applications using React, PostgreSQL and Docker.</li>
-                <li>Conducted code reviews, contributing to maintaining high standards of code quality and team collaboration.</li>
-                <li>Provided mentorship to two IT college students, enhancing their practical software engineering skills.</li>
-            </ul>
-        ),
-        badge: 'Junior Software Engineer/Jun 2022 - Jan 2024'
-    },
-    {
-        title: 'Atlantbh (Intenship)',
-        description: (
-            <ul className="list-disc">
-                <li>Developed full-stack applications with React.js and Spring Boot.</li>
-                <li>
-                    Implemented essential software development practices such as GitHub for version control, Maven for project management, JUnit for
-                    testing, and applied design patterns and MVC architecture.
-                </li>
-            </ul>
-        ),
-        badge: 'Full Stack Developer/Feb 2022 - May 2022'
-    }
+  {
+    title: "Metricstream, Bangalore",
+    description: (
+      <ul className="list-disc">
+        <li>
+          Frontend Developer: Utilized React JS and React Hook Forms for
+          seamless implementation of features in GRC product.
+        </li>
+        <li>
+          Ensured optimal performance by integrating new features while
+          maintaining existing functionalities.
+        </li>
+        <li>
+          Collaborated with UI development team to translate Figma designs into
+          functional web pages.
+        </li>
+        <li>
+          Contributed to delivering a high-quality user experience through
+          efficient frontend development.
+        </li>
+      </ul>
+    ),
+    badge: (
+      <span className="text-blue-500">
+        Junior Software Engineer | Sept-2022 - Current
+      </span>
+    ),
+  },
+  {
+    title: "Intain Technologies Pvt. Ltd., Chennai",
+    description: (
+      <ul className="list-disc">
+        <li>
+          As a fresher React JS web developer, I was fortunate to have the
+          opportunity to work in a dynamic company for around 8 months. I was
+          responsible for generating UI, implementing features and functionality
+          for the web application. Using React JS, I was able to develop
+          responsive and dynamic user interfaces that delivered exceptional user
+          experiences.
+        </li>
+        <li>
+          In addition, I had the opportunity to work with Figma, a powerful
+          design tool that allowed me to collaborate with designers and
+          implement their designs with ease.
+        </li>
+        <li>
+          Overall, my experience as a fresher React JS web developer in this
+          company has equipped me with a solid foundation in web development and
+          provided me with the confidence and skills necessary to take on new
+          challenges in the industry.
+        </li>
+      </ul>
+    ),
+    badge: (
+      <span className="text-blue-500">
+        Frontend Developer | Feb-2022 - Sept-2022
+      </span>
+    ),
+  },
+  {
+    title: "NxtWave (Internship), Hydrabad",
+    description: (
+      <ul className="list-disc">
+        <li>
+          Gained foundational understanding of web development, beginning with
+          HTML, CSS, and Bootstrap for project creation during internship
+        </li>
+        <li>
+          Progressed to dynamic web design by mastering JavaScript, subsequently
+          advancing to React JS and Hooks for building diverse applications,
+          including authentication, authorization, and local storage
+          functionalities.
+        </li>
+        <li>
+          Expanded skill set by exploring Material-UI (MUI) and other essential
+          libraries for creating comprehensive React applications
+        </li>
+      </ul>
+    ),
+    badge: (
+      <span className="text-blue-500">
+        Frontend Developer | Aug-2021 - Jan-2022
+      </span>
+    ),
+  },
 ];
