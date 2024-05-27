@@ -4,11 +4,17 @@ import { HoverEffect } from "../ui/card-hover-effect";
 import { FaReact } from "react-icons/fa";
 
 import { IoLogoJavascript } from "react-icons/io5";
+import { FaGitAlt } from "react-icons/fa";
+import { TbFileTypeSql } from "react-icons/tb";
 import {
   SiTypescript,
   SiRedux,
   SiTailwindcss,
   SiNextdotjs,
+  SiJest,
+  SiSass,
+  SiFigma,
+  SiMui,
 } from "react-icons/si";
 
 export const projects = [
@@ -75,6 +81,18 @@ export const projects = [
   {
     title: (
       <div className="flex justify-between align-center">
+        <p>SQL</p>
+        <p className="text-[1.5rem] text-blue-500">
+          <TbFileTypeSql />
+        </p>
+      </div>
+    ),
+    description: "",
+    link: "https://www.mysql.com/",
+  },
+  {
+    title: (
+      <div className="flex justify-between align-center">
         <p>Tailwind</p>
         <p className="text-[1.5rem] text-blue-500">
           <SiTailwindcss />
@@ -83,6 +101,66 @@ export const projects = [
     ),
     description: "",
     link: "https://tailwindcss.com/",
+  },
+  {
+    title: (
+      <div className="flex justify-between align-center">
+        <p>MUI</p>
+        <p className="text-[1.5rem] text-blue-500">
+          <SiMui />
+        </p>
+      </div>
+    ),
+    description: "",
+    link: "https://mui.com/",
+  },
+  {
+    title: (
+      <div className="flex justify-between align-center">
+        <p>Jest/RTL</p>
+        <p className="text-[1.5rem] text-blue-500">
+          <SiJest />
+        </p>
+      </div>
+    ),
+    description: "",
+    link: "https://jestjs.io/",
+  },
+  {
+    title: (
+      <div className="flex justify-between align-center">
+        <p>Sass/Scss</p>
+        <p className="text-[1.5rem] text-blue-500">
+          <SiSass />
+        </p>
+      </div>
+    ),
+    description: "",
+    link: "https://sass-lang.com/",
+  },
+  {
+    title: (
+      <div className="flex justify-between align-center">
+        <p>Figma</p>
+        <p className="text-[1.5rem] text-blue-500">
+          <SiFigma />
+        </p>
+      </div>
+    ),
+    description: "",
+    link: "https://www.figma.com/",
+  },
+  {
+    title: (
+      <div className="flex justify-between align-center">
+        <p>Git</p>
+        <p className="text-[1.5rem] text-blue-500">
+          <FaGitAlt />
+        </p>
+      </div>
+    ),
+    description: "",
+    link: "https://git-scm.com/",
   },
 ];
 

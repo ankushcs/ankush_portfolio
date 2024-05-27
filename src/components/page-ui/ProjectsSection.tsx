@@ -9,54 +9,54 @@ export function ProjectsSection() {
 const products = [
   {
     title: "Jobby App",
-    link: "https://github.com/ankushcs/jobby_app_hook",
+    link: "https://ajobbyapp.netlify.app",
     thumbnail: "/projects/Joby_App.png",
   },
   {
     title: "Restaurant Website",
-    link: "https://github.com/ankushcs/restaurant_website_clone",
+    link: "https://restaurantcloneankush.netlify.app",
     thumbnail: "/projects/restaurant_web.png",
   },
   {
     title: "AI Website",
-    link: "https://github.com/ankushcs/Site-Clone-Ai",
+    link: "https://ankushai.ccbp.tech/",
     thumbnail: "/projects/ai_website.png",
   },
 
   {
     title: "Todo App",
-    link: "https://github.com/ankushcs/react-todo-app",
+    link: "https://ankushtodoapp.ccbp.tech/",
     thumbnail: "/projects/Todo_App.png",
   },
   {
     title: "Password Manager",
-    link: "https://github.com/ankushcs/password__manager",
+    link: "https://apasswordmanager.netlify.app",
     thumbnail: "/projects/Password_Manager.png",
   },
   {
     title: "Youtube Clone",
-    link: "https://github.com/ankushcs/youtubeclone",
+    link: "https://ankushyoutubeclone.netlify.app",
     thumbnail: "/projects/Youtube_Clone.png",
   },
 
   {
     title: "Weather App",
-    link: "https://github.com/ankushcs/Weather-App",
+    link: "https://ankushweatherapp.netlify.app",
     thumbnail: "/projects/Weather_app.png",
   },
   {
     title: "Expanse Tracker",
-    link: "https://github.com/ankushcs/Expense-Tracker",
+    link: "https://expensetrackerviavoice.netlify.app",
     thumbnail: "/projects/Expanse_Tracker.png",
   },
   {
     title: "Old Portfolio",
-    link: "https://github.com/ankushcs/portfolio_tw",
+    link: "https://ankushsinghtw.netlify.app",
     thumbnail: "/projects/Old_portfolio.png",
   },
   {
     title: "Sipto Website",
-    link: "https://github.com/ankushcs/sipto-app",
+    link: "https://siptoappankush.netlify.app",
     thumbnail: "/projects/Sipto_Web.png",
   },
 ];

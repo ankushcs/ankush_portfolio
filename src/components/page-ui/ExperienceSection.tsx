@@ -40,26 +40,36 @@ const experience = [
     description: (
       <ul className="list-disc">
         <li>
-          Frontend Developer: Utilized React JS and React Hook Forms for
-          seamless implementation of features in GRC product.
+          Frontend Developer: Utilized Next JS and React Hook Forms for seamless
+          implementation of features while maintaining existing functionalities
+          in GRC product.
         </li>
         <li>
-          Ensured optimal performance by integrating new features while
-          maintaining existing functionalities.
+          Since joining MetricStream, I've resolved over 250 issues and
+          spearheaded the development of 30 new features, all within a span of
+          two years.
         </li>
         <li>
-          Collaborated with UI development team to translate Figma designs into
-          functional web pages.
+          One of my key contributions lies in my role as the prime responsible
+          for group by reports and layout preferences in reports, where I've
+          demonstrated my ability to translate complex requirements into elegant
+          frontend solutions.
         </li>
         <li>
-          Contributed to delivering a high-quality user experience through
-          efficient frontend development.
+          Collaborated closely with the UI design team to transform Figma
+          wire-frames into functional components and features for the GRC
+          product.
+        </li>
+        <li>
+          Active participation in over 50 code reviews has been a cornerstone of
+          my role at MetricStream. By providing constructive feedback,
+          identifying potential improvements, and sharing best practices.
         </li>
       </ul>
     ),
     badge: (
       <span className="text-blue-500">
-        Junior Software Engineer | Sept-2022 - Current
+        Software Engineer | Sept-2022 - Present
       </span>
     ),
   },

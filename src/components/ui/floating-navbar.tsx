@@ -73,7 +73,7 @@ export const FloatingNav = ({
           </Link>
         ))}
         <ModeToggle />
-        <div className="w-2" />
+        <div className="w-1" />
       </motion.div>
     </AnimatePresence>
   );

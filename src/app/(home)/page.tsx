@@ -5,6 +5,7 @@ import { ProjectsSection } from "@/components/page-ui/ProjectsSection";
 import { SkillsSection } from "@/components/page-ui/SkillsSection";
 import { AboutMe } from "@/components/page-ui/AboutMe";
 import { Testimonials } from "@/components/page-ui/Testimonials";
+import FooterSection from "@/components/page-ui/FooterSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ProjectsSection />
       <Testimonials />
       <ContactMeForm />
+      <FooterSection />
     </main>
   );
 }
