@@ -26,7 +26,7 @@ const words = [
   },
 ];
 
-export function LandingPage() {
+export default function LandingPage() {
   return (
     <div
       id="landing-page"

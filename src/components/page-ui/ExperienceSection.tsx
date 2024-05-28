@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 
 import { TracingBeam } from "@/components/ui/tracing-beams";
 
-export function ExperienceSection() {
+export default function ExperienceSection() {
   return (
     <>
       <h1

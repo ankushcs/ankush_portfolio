@@ -1,15 +1,26 @@
-import { ContactMeForm } from "@/components/page-ui/ContactMe";
-import { ExperienceSection } from "@/components/page-ui/ExperienceSection";
-import { LandingPage } from "@/components/page-ui/LandingPage";
-import { ProjectsSection } from "@/components/page-ui/ProjectsSection";
-import { SkillsSection } from "@/components/page-ui/SkillsSection";
-import { AboutMe } from "@/components/page-ui/AboutMe";
-import { Testimonials } from "@/components/page-ui/Testimonials";
-import FooterSection from "@/components/page-ui/FooterSection";
+import dynamic from "next/dynamic";
 
-export default function Home() {
+// Dynamically import components
+const ContactMeForm = dynamic(() => import("@/components/page-ui/ContactMe"));
+const ExperienceSection = dynamic(
+  () => import("@/components/page-ui/ExperienceSection")
+);
+const LandingPage = dynamic(() => import("@/components/page-ui/LandingPage"));
+const ProjectsSection = dynamic(
+  () => import("@/components/page-ui/ProjectsSection")
+);
+const SkillsSection = dynamic(
+  () => import("@/components/page-ui/SkillsSection")
+);
+const AboutMe = dynamic(() => import("@/components/page-ui/AboutMe"));
+const Testimonials = dynamic(() => import("@/components/page-ui/Testimonials"));
+const FooterSection = dynamic(
+  () => import("@/components/page-ui/FooterSection")
+);
+
+function MyPage() {
   return (
-    <main>
+    <div>
       <LandingPage />
       <AboutMe />
       <ExperienceSection />
@@ -18,6 +29,8 @@ export default function Home() {
       <Testimonials />
       <ContactMeForm />
       <FooterSection />
-    </main>
+    </div>
   );
 }
+
+export default MyPage;

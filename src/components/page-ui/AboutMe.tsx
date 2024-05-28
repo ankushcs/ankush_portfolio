@@ -93,7 +93,7 @@ const content = [
   },
 ];
 
-export function AboutMe() {
+export default function AboutMe() {
   return (
     <div className="mx-auto max-w-5xl px-8 pb-8">
       <h1

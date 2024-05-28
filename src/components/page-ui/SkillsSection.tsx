@@ -164,7 +164,7 @@ export const projects = [
   },
 ];
 
-export function SkillsSection() {
+export default function SkillsSection() {
   return (
     <div className="mx-auto max-w-5xl px-8 pb-8">
       <h1

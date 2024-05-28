@@ -37,7 +37,7 @@ export const contactFormSchema = z.object({
 
 export type ContactFormSchemaType = z.infer<typeof contactFormSchema>;
 
-export function ContactMeForm() {
+export default function ContactMeForm() {
   const form = useForm<z.infer<typeof contactFormSchema>>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
