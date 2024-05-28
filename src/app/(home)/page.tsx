@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 // Dynamically import components
 const ContactMeForm = dynamic(() => import("@/components/page-ui/ContactMe"));
 const ExperienceSection = dynamic(
-  () => import("@/components/page-ui/ExperienceSection")
+  () => import("@/components/page-ui/ExperienceSection")x
 );
 const LandingPage = dynamic(() => import("@/components/page-ui/LandingPage"));
 const ProjectsSection = dynamic(
