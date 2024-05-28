@@ -17,7 +17,7 @@ import {
   SiMui,
 } from "react-icons/si";
 
-export const projects = [
+export const projects1 = [
   {
     title: (
       <div className="flex justify-between align-center">
@@ -90,6 +90,9 @@ export const projects = [
     description: "",
     link: "https://www.mysql.com/",
   },
+];
+
+export const projects2 = [
   {
     title: (
       <div className="flex justify-between align-center">
@@ -174,7 +177,10 @@ export default function SkillsSection() {
         Skills
       </h1>
       <div className="max-w-5xl mx-auto px-8">
-        <HoverEffect items={projects} />
+        <HoverEffect items={projects1} />
+      </div>
+      <div className="max-w-5xl mx-auto px-8 hidden md:block pb-5">
+        <HoverEffect items={projects2} />
       </div>
     </div>
   );

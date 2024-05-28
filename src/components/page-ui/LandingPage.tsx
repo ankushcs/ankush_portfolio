@@ -33,12 +33,16 @@ export default function LandingPage() {
       className="bg- relative flex  h-screen w-full flex-col items-center justify-center bg-white bg-dot-black/[0.2] dark:bg-black dark:bg-dot-white/[0.2]"
     >
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] dark:bg-black" />
-      <p className="text-xs text-neutral-600 dark:text-neutral-200 sm:text-base  ">
+      <p className="text-sm text-neutral-600 dark:text-neutral-200 sm:text-base  ">
         {" "}
         Hello, I&apos;m <span className="text-blue-500">Ankush Singh</span>. A
         passionate FrontEnd Developer.
       </p>
-      <TypewriterEffectSmooth words={words} />
+      <p className="md:text-5xl font-bold text-neutral-600 dark:text-neutral-200 text-xl my-4 text-center">
+        Javascript and React/Next JS{" "}
+        <span className="text-blue-500">Developer</span>
+      </p>
+      {/* <TypewriterEffectSmooth words={words} /> */}
       <div className="z-30 flex flex-col items-center space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0">
         <div className="flex gap-2 justify-center items-center">
           <a href="Ankush_Resume_2024.pdf" target="_blank">
